@@ -1,0 +1,118 @@
+body {
+  background: white;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #272727;
+  padding-top: 60px;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background-color: #f4f4f4;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.container {
+  max-width: 1107px;
+  margin: auto;
+}
+.container-kontakt {
+	
+}
+.logo-img {
+  max-width: 300px;
+  display: block;
+  margin-top: 0px;
+  padding-right: 170px;
+  padding-top: 10px;
+}
+.nav {
+  flex-basis: 70%;
+}
+.nav__kontakt {
+  font-size: 18px;
+  color: #95989a;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+.button {
+  border-radius: 30px;
+  background-color: #fcde29;
+  padding: 20px 150px;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+}
+.button-logo {
+  border-radius: 30px;
+  background-color: #cffc28;
+  padding: 10px 100px;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+}
+.tabs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 20px;
+  margin-top: 120px;
+}
+.tabs-logo {
+  font-size: 20px;
+  color: #95989a;
+}
+.tabs-menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+.tabs-menu__item {
+  margin-left: 20px;
+  position: relative;;
+}
+.tabs-content_1 {
+  background: #f2f4ff url(img/sofa.png) no-repeat top 30px
+    right 100px;
+  border-radius: 10px;
+  padding-top: 40px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 35px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+}
+.tabs-content__title {
+  font-size: 36px;
+}
+.tabs-content_text {
+  font-size: 18px;
+  max-width: 313px;
+  margin-bottom: 90px;
+}
+.tabs-content_2 {
+  background: #f2f4ff url(img/house.png) no-repeat top 15px
+    right 130px;
+  border-radius: 10px;
+  padding-top: 40px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 35px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+}
+.tabs-content_3 {
+  background: #f2f4ff url(img/car.png) no-repeat top 15px
+    right 60px;
+  border-radius: 10px;
+  padding-top: 40px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 35px;
+  margin-bottom: 65px;
+  padding-top: 10px;
+}
